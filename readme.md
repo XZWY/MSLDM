@@ -6,12 +6,12 @@ This is the inference models of our paper MSLDM: Multi-Source Latent Diffusion f
 <img src="general_pipeline.png"/>
 </p> 
 
-## To start this project, first
+## To start this project,
 ```bash
 git clone https://github.com/XZWY/MSLDM
 ```
 
-## enviroment
+## Enviroment
 The environment for running our code can be installed using conda:
 ```bash
 # Install environment

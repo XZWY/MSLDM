@@ -18,7 +18,7 @@ The environment for running our code can be installed using conda:
 conda env create -f env.yaml
 
 # Activate the environment
-conda activate msdm
+conda activate msldm
 ```
 
 ## slakh2100 dataset

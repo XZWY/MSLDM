@@ -1,5 +1,8 @@
 # Ignore the root ckpt directory
-/ckpt/
+/ckpt/msldm.ckpt
+/ckpt/sourcevae_ckpt
+/ckpt/msldm_large.ckpt
+
 
 # Ignore the ckpt directory inside SourceVAE
 /SourceVAE/ckpt/

@@ -1,6 +1,11 @@
 # Multi-Source Music Generation with Latent Diffusion
 This is the inference models of our paper MSLDM: Multi-Source Latent Diffusion for Music Generation. Our demo site is shown here: https://xzwy.github.io/MSLDMDemo/.
 
+## General Pipeline
+<p align="center">
+<img src="general_pipeline.png"/>
+</p> 
+
 ## To start this project, first
 ```bash
 git clone https://github.com/XZWY/MSLDM
@@ -17,9 +22,9 @@ conda activate msdm
 ```
 
 ## slakh2100 dataset
-### 1. download the complete dataset from https://github.com/gladia-research-group/multi-source-diffusion-models/blob/main/data/README.md
-### 2, Move all the downloaded tar files inside msldm/data
-### 3. Follow the data preparation instruction 3,4 in https://github.com/gladia-research-group/multi-source-diffusion-models/blob/main/data/README.md, but in your msldm/data directory
+#### 1. download the complete dataset from https://github.com/gladia-research-group/multi-source-diffusion-models/blob/main/data/README.md
+#### 2, Move all the downloaded tar files inside msldm/data
+#### 3. Follow the data preparation instruction 3,4 in https://github.com/gladia-research-group/multi-source-diffusion-models/blob/main/data/README.md, but in your msldm/data directory
 make sure that msldm/data looks like:
 ```
 data/

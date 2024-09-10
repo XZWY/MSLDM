@@ -1,0 +1,5 @@
+# Ignore the root ckpt directory
+/ckpt/
+
+# Ignore the ckpt directory inside SourceVAE
+/SourceVAE/ckpt/

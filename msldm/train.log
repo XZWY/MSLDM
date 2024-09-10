@@ -1,0 +1,25 @@
+[2024-09-09 15:02:52,208][main.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2024-09-09 15:02:52,211][__main__][INFO] - Instantiating datamodule <main.module_base.DatamoduleWithValidation>.
+[2024-09-09 15:02:52,437][__main__][INFO] - Instantiating model <main.module_base_latent.Model>.
+[2024-09-09 15:05:17,967][main.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2024-09-09 15:05:17,969][__main__][INFO] - Instantiating datamodule <main.module_base.DatamoduleWithValidation>.
+[2024-09-09 15:05:18,495][__main__][INFO] - Instantiating model <main.module_base_latent.Model>.
+[2024-09-09 15:05:21,522][__main__][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>.
+[2024-09-09 15:05:21,524][__main__][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>.
+[2024-09-09 15:05:21,529][__main__][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>.
+[2024-09-09 15:05:21,530][__main__][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>.
+[2024-09-09 15:05:28,652][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>.
+[2024-09-09 15:05:29,329][__main__][INFO] - Logging hyperparameters!
+[2024-09-09 15:05:29,347][__main__][INFO] - Starting training.
+[2024-09-09 15:05:54,569][__main__][INFO] - Finalizing!
+[2024-09-09 15:06:57,053][main.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2024-09-09 15:06:57,055][__main__][INFO] - Instantiating datamodule <main.module_base.DatamoduleWithValidation>.
+[2024-09-09 15:06:57,353][__main__][INFO] - Instantiating model <main.module_base_latent.Model>.
+[2024-09-09 15:07:00,270][__main__][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>.
+[2024-09-09 15:07:00,272][__main__][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>.
+[2024-09-09 15:07:00,278][__main__][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>.
+[2024-09-09 15:07:00,279][__main__][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>.
+[2024-09-09 15:07:07,074][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>.
+[2024-09-09 15:07:08,677][__main__][INFO] - Logging hyperparameters!
+[2024-09-09 15:07:08,695][__main__][INFO] - Starting training.
+[2024-09-09 15:07:34,849][__main__][INFO] - Finalizing!

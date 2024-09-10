@@ -1,0 +1,54 @@
+{
+    "sample_rate": 22050,
+
+    "encoder_dim":64,
+    "encoder_rates": [2, 4, 5, 8],
+    "latent_dim": 80,
+    "decoder_dim": 1536,
+    "decoder_rates": [8, 5, 4, 2],
+
+    "D_sample_rate": 22050,
+    "D_rates": [],
+    "D_periods": [2, 3, 5, 7, 11],
+    "D_fft_sizes": [2048, 1024, 512],
+    "D_bands": [[0.0, 0.1], [0.1, 0.25], [0.25, 0.5], [0.5, 0.75], [0.75, 1.0]],
+
+
+    "betas": [0.8, 0.99],
+    "lr": 0.00005,
+    "ExponentialLR_gamma": 0.999996,
+
+    "lambdas": {
+        "mel/loss": 15.0,
+        "adv/feat_loss": 2.0,
+        "adv/gen_loss": 1.0,
+        "loss_KLD": 10.0
+    },
+
+    "msSTFTLoss_window_lengths": [2048, 512],
+    "n_mels": [5, 10, 20, 40, 80, 160, 320],
+    "window_lengths": [32, 64, 128, 256, 512, 1024, 2048],
+    "mel_fmin": [0, 0, 0, 0, 0, 0, 0],
+    "mel_fmax": [null, null, null, null, null, null, null],
+    "pow": 1.0,
+    "clamp_eps": 1.0e-5,
+    "mag_weight": 0.0,
+
+    "num_gpus": 1,
+    "batch_size": 28,
+    "seed": 0,
+
+    "segment_length":22050,
+
+
+    "sampling_rate": 22050,
+
+
+    "num_workers": 12,
+
+    "dist_config": {
+        "dist_backend": "nccl",
+        "dist_url": "tcp://localhost:54351",
+        "world_size": 1
+    }
+}

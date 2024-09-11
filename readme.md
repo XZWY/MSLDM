@@ -1,5 +1,5 @@
 # Multi-Source Music Generation with Latent Diffusion
-This is the inference models of our paper MSLDM: Multi-Source Latent Diffusion for Music Generation. Our demo site is shown here: https://xzwy.github.io/MSLDMDemo/.
+This is the inference models of our paper MSLDM: Multi-Source Latent Diffusion for Music Generation: https://arxiv.org/abs/2409.06190. Our demo site is shown here: https://xzwy.github.io/MSLDMDemo/.
 
 ## General Pipeline
 <p align="center">
@@ -97,4 +97,19 @@ ckpt/
  └───sourcevae_ckpt
  └───msldm.ckpt
  └───msldm_large.ckpt
+```
+
+## Citations
+If you use our model for your research, please consider citing
+
+```
+@misc{xu2024multisourcemusicgenerationlatent,
+      title={Multi-Source Music Generation with Latent Diffusion}, 
+      author={Zhongweiyang Xu and Debottam Dutta and Yu-Lin Wei and Romit Roy Choudhury},
+      year={2024},
+      eprint={2409.06190},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS},
+      url={https://arxiv.org/abs/2409.06190}, 
+}
 ```
